@@ -1,0 +1,298 @@
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #b2b2b2;
+}
+body {
+	font-family: "Tahoma", sans-serif;
+	font-size: 12px;
+	color: #8f8f8f;
+	background: transparent url(../img/background.png);
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
+}
+
+#container {
+	max-width: 960px;
+	margin: auto;
+}
+
+header {
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+header form {
+	float: right;
+}
+
+header button {
+	background-color: #29c5e6;
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	font-size: 14px;
+	border: none;
+	width: 42px;
+	height: 32px;
+}
+
+header input {
+	height: 32px;
+	width: 158px;
+	padding: 0 10px;
+	vertical-align: top;
+	color: #b2b2b2;
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	font-family: "Tahoma",sans-serif;
+}
+
+header ul {
+	list-style-type: none;
+	font-family: "Oswald", sans-serif;
+	font-size: 14px;
+	display: flex;
+	padding: 0;
+	justify-content: space-between;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	height: 40px;
+}
+
+header li {
+	width: 120px;
+	text-align: center;
+}
+
+header a {
+	line-height: 40px;	
+}
+
+.active {
+	background-color: #29c5e6;
+}
+
+.active a {
+	color: #fff;
+}
+h1 {
+	font: 40px/40px 'Oswald', sans-serif;
+	font-weight: 400;
+	background: transparent url(../img/background.png);
+	display: inline-block;
+	margin: 0;
+	padding: 0 10px;
+	}
+
+.page-title {
+	background: url(../img/h1-bg.png); 
+	padding-left: 20px;
+	margin: 30px 0;
+}
+
+.main-content {
+	float: right;
+	margin-bottom: 50px;
+}
+
+blockquote {
+	background: #29c5e6;
+	margin: 0;
+	width: 680px;
+	height: 170px;
+	margin-bottom: 20px;
+}
+
+blockquote p {
+	margin: 0;
+	color: #fff;
+	font: italic 300 33px/34px "Oswald",sans-serif;
+	text-transform: uppercase;
+	padding: 17px 22px 21px;
+
+}
+
+blockquote cite { 
+	display: block;
+	text-align: right; 
+	padding-right: 36px;
+	color: #1d8ea6;
+	font: 300 20px/1px "Oswald",sans-serif;
+	margin-bottom: 17px;
+}
+
+.text {
+	width: 680px;
+	margin-bottom: 22px;
+}
+
+.text p {
+	line-height: 18px;
+	margin-bottom: 27px;
+}
+
+.text p:last-child {margin-bottom: 20px;}
+
+figure {
+	display: inline;
+	margin: 0;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+figure + figure { margin-right: 0 }
+
+figure img {
+	border: 1px solid #fff;
+	outline: 1px solid #c9c9c9;
+}
+
+section h2 {
+	font: 300 30px/40px "Oswald",sans-serif;
+	background: #29c5e6;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.team-row {
+	width: 680px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.team-row figure {
+	margin: 0;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.team-row + .team-row figure {margin-bottom: 0;}
+
+.team-row figcaption {
+	display: inline;
+	color: #8f8f8f;
+	font: 300 16px "Oswald",sans-serif;
+}
+
+.team-row span {
+	color: #29c5e6;
+	font: 300 14px "Oswald",sans-serif;
+}
+
+aside { 
+	width: 250px; 
+	margin-right: 30px;
+}
+
+aside ul { padding: 0; }
+
+aside li {
+	height: 40px;
+	border: 1px solid #e7e7e7;
+	border-top: none;
+	list-style-position: inside;
+	background-color: #f3f3f3;
+	padding-left: 12px;
+	font: 300 14px/40px "Oswald", sans-serif;
+}
+
+aside li:first-child {
+	border-top: 1px solid #e7e7e7;
+}
+
+aside li.active {
+	background-color: #f3f3f3;
+	color: #29c5e6;
+}
+
+aside h2 {
+	background-color: #29c5e6;
+	color: #fff;
+	font: 14px "Oswald", sans-serif;
+	padding: 12px;
+	margin-bottom: 0;
+	margin-top: 30px;
+}
+
+aside p {
+	background-color: #f3f3f3;
+	padding: 10px 12px;
+	border: 1px solid #e7e7e7;
+	margin-top: 0;
+}
+
+footer {
+	margin: 0;
+	margin-top: 52px;
+	background-color: #7e7e7e;
+	height: 122px;
+	clear: both;
+}
+
+#footer {
+	width: 960px;
+	margin: auto;
+}
+
+#footer div {
+	display: inline-block;
+	max-width: 300px;
+}
+
+#footer>div {
+	vertical-align: top;
+	margin-right: 20px;
+
+}
+
+#footer h3 {
+	font: 14px "Oswald",sans-serif;
+	color: #fff;
+	border-bottom: 1px solid #919191;
+	margin-bottom: 10px;
+}
+
+#footer p, #footer a {
+	color: #dbdbdb;
+	font-size: 11px;
+}
+
+#footer time {
+	color: #b0abab;
+	text-decoration: underline;
+}
+
+.map:first-of-type {
+	margin-right: 42px;
+}
+
+.map a {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.social-networks {
+	width: 110px;
+}
+
+.big-icon {
+	margin-bottom: 8px;
+}
+
+#footer-logo {
+	float: right;
+	margin: 30px 0;
+	text-align: right;
+
+}
+#footer #footer-logo {
+	margin-right: 0;
+}
+#footer-logo p {
+	margin: 0;
+	font-size: 10px;
+	color: #dbdbdb;
+}
